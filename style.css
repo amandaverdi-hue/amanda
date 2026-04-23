@@ -1,0 +1,145 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #1a1a1a; /* Preto */
+    color: #f0f0f0;
+}
+
+header {
+    background-color: #000000; /* Preto mais escuro */
+    padding: 20px;
+    text-align: center;
+    border-bottom: 3px solid #C0392B; /* Vermelho */
+}
+
+header h1 {
+    color: #F1C40F; /* Dourado */
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #f0f0f0;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #C0392B; /* Vermelho */
+}
+
+.movie-showcase {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.movie-showcase h2 {
+    color: #F1C40F; /* Dourado */
+    margin-bottom: 30px;
+}
+
+.movie-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.card {
+    background-color: #333333;
+    border: 1px solid #555555;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    border-color: #C0392B; /* Vermelho */
+}
+
+.card img {
+    width: 100%;
+    height: 350px; /* Altura fixa para as imagens */
+    object-fit: cover;
+}
+
+.card h3 {
+    color: #F1C40F; /* Dourado */
+    padding: 15px;
+    font-size: 1.2em;
+}
+
+footer {
+    background-color: #000000;
+    color: #f0f0f0;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+    border-top: 3px solid #C0392B; /* Vermelho */
+}
+
+/* Contato Page */
+.contact-section {
+    padding: 40px 20px;
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #333333;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.contact-section h2 {
+    color: #F1C40F;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 8px;
+    color: #f0f0f0;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #555555;
+    border-radius: 4px;
+    background-color: #1a1a1a;
+    color: #f0f0f0;
+}
+
+.contact-form textarea {
+    resize: vertical;
+    min-height: 120px;
+}
+
+.contact-form button {
+    background-color: #C0392B; /* Vermelho */
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #E74C3C; /* Vermelho mais claro */
+}
